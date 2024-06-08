@@ -1,0 +1,142 @@
+{
+    "id": "pf2e-kyras-customisations",
+    "title": "PF2e Kyras Custom Stuff",
+    "version": "0.7",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "url": "https://github.com/bLanark/pf2e-kyras-customisations",
+    "manifest": "https://github.com/shemetz/pf2e-modifiers-matter/releases/latest/download/module.json",
+    "download": "https://github.com/shemetz/pf2e-modifiers-matter/releases/download/1.9.1/module.zip",
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ],
+        "requires": [
+            {
+                "id": "pf2e-toolbelt",
+                "type": "module",
+                "compatibility": {}
+            },
+            {
+                "id": "xdy-pf2e-workbench",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kyra",
+            "discord": "Blanark",
+            "flags": {}
+        }
+    ],
+    "packFolders": [
+        {
+			"name": "Kyra's Stuff",
+			"sorting": "m",
+			"packs": [
+				"relics-celestial",	  
+				"relics-death",	
+				"relics-dragon",
+				"relics-fire",
+				"relics-life",
+				"kyra-breath-weapons",		
+				"kyra-macros"
+			],
+			"folders": []
+		}
+	],
+	"packs": [
+		{
+			"name": "relics-fire",
+			"label": "Fire",
+			"path": "packs/relics-fire",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "relics-celestial",
+			"label": "Celestial",
+			"path": "packs/relics-celestial",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "relics-dragon",
+			"label": "Dragon",
+			"path": "packs/relics-dragon",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "relics-death",
+			"label": "Death",
+			"path": "packs/relics-death",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "relics-life",
+			"label": "Life",
+			"path": "packs/relics-life",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
+			"name": "kyra-breath-weapons",
+			"label": "Breath Weapons",
+			"path": "packs/kyra-breath-weapons",
+			"type": "Macro",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},	
+		{
+			"name": "kyra-macros",
+			"label": "Macros",
+			"path": "packs/kyra-macros",
+			"type": "Macro",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		}
+	]
+}
