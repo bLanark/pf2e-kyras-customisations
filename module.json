@@ -7,8 +7,8 @@
         "verified": "11"
     },
     "url": "https://github.com/bLanark/pf2e-kyras-customisations",
-    "manifest": "https://github.com/shemetz/pf2e-modifiers-matter/releases/latest/download/module.json",
-    "download": "https://github.com/shemetz/pf2e-modifiers-matter/releases/download/1.9.1/module.zip",
+    "manifest": "https://github.com/shemetz/pf2e-kyras-customisations/releases/latest/download/module.json",
+    "download": "https://github.com/shemetz/pf2e-kyras-customisations/releases/latest/download/module.zip",
     "relationships": {
         "systems": [
             {
