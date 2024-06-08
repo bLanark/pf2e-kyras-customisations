@@ -1,7 +1,7 @@
 {
     "id": "pf2e-kyras-customisations",
     "title": "PF2e Kyras Custom Stuff",
-    "version": "0.7.2",
+    "version": "0.7.3",
     "compatibility": {
         "minimum": "11",
         "verified": "11"
