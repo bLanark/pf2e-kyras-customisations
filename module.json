@@ -4,7 +4,7 @@
     "version": "0.7.4",
     "compatibility": {
         "minimum": "11",
-        "verified": "11"
+        "verified": "13"
     },
     "url": "https://github.com/bLanark/pf2e-kyras-customisations",
     "manifest": "https://github.com/bLanark/pf2e-kyras-customisations/releases/latest/download/module.json",
