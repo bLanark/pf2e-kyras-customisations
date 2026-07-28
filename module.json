@@ -3,8 +3,8 @@
     "title": "PF2e Kyras Custom Stuff",
     "version": "0.8.1",
     "compatibility": {
-        "minimum": "12",
-        "verified": "12"
+        "minimum": "13",
+        "verified": "13"
     },
     "url": "https://github.com/bLanark/pf2e-kyras-customisations",
     "manifest": "https://github.com/bLanark/pf2e-kyras-customisations/releases/latest/download/module.json",
