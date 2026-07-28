@@ -1,10 +1,10 @@
 {
     "id": "pf2e-kyras-customisations",
     "title": "PF2e Kyras Custom Stuff",
-    "version": "0.7.4",
+    "version": "0.8.1",
     "compatibility": {
-        "minimum": "11",
-        "verified": "11"
+        "minimum": "12",
+        "verified": "12"
     },
     "url": "https://github.com/bLanark/pf2e-kyras-customisations",
     "manifest": "https://github.com/bLanark/pf2e-kyras-customisations/releases/latest/download/module.json",
@@ -27,6 +27,11 @@
                 "id": "xdy-pf2e-workbench",
                 "type": "module",
                 "compatibility": {}
+            },
+            {
+                "id": "roll-from-compendium",
+                "type": "module",
+                "compatibility": {}
             }
         ]
     },
@@ -47,8 +52,9 @@
 				"relics-dragon",
 				"relics-fire",
 				"relics-life",
+				"relics-mind",
 				"kyra-breath-weapons",		
-				"kyra-macros"
+				"kyras-misc"
 			],
 			"folders": []
 		}
@@ -103,6 +109,18 @@
 			"flags": {}
 		},
 		{
+			"name": "relics-mind",
+			"label": "Life",
+			"path": "packs/relics-mind",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {}
+		},
+		{
 			"name": "relics-life",
 			"label": "Life",
 			"path": "packs/relics-life",
@@ -127,10 +145,10 @@
 			"flags": {}
 		},	
 		{
-			"name": "kyra-macros",
-			"label": "Macros",
-			"path": "packs/kyra-macros",
-			"type": "Macro",
+			"name": "kyras-misc",
+			"label": "Kyra Misc",
+			"path": "packs/kyras-misc",
+			"type": "Item",
 			"ownership": {
 				"PLAYER": "OBSERVER",
 				"ASSISTANT": "OWNER"
